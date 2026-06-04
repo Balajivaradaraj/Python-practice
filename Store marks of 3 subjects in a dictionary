@@ -1,0 +1,12 @@
+marks={}
+sub1=input("enter the sub1 name:")
+mark1=int(input("enter thee marks:"))
+marks[sub1]=mark1
+sub2=input("enter the sub2 name:")
+mark2=int(input("enter thee marks:"))
+marks[sub2]=mark2
+sub3=input("enter the sub3 name:")
+mark3=int(input("enter thee marks:"))
+marks[sub3]=mark3
+print(marks)
+
