@@ -1,0 +1,4 @@
+def list_length(mylist):
+    print(len(mylist))
+    
+list_length([1,2,3,4])
