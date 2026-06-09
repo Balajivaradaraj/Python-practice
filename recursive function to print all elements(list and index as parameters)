@@ -1,0 +1,8 @@
+def show (nums, i):
+    if i==len(nums):
+        return
+    print(nums[i])
+    show(nums, i+1)
+    
+nums=[10,20,30,40]
+show(nums,0)
