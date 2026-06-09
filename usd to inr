@@ -1,0 +1,5 @@
+def usd_to_inr(usd):
+    inr=usd*85
+    print(usd)
+    
+usd_to_inr(10)
