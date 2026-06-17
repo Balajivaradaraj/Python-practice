@@ -1,0 +1,30 @@
+Create a new file “practice.txt” using python. Add the following data in it:
+Hi everyone
+we are learning File I/O
+using Java.
+I like programming in Java.
+
+WAF that replace all occurrences of “java” with “python” in above file.
+
+Search if the word “learning” exists in the file or not.
+
+solution:
+
+
+
+f=open("practice.txt","w")
+f.write("""hi everyone
+we are learning file I/O
+using java
+i like programing in java""")
+f=open("practice.txt","r")
+data=f.read()
+f.close()
+new_data=data.replace("java","phython")
+f=open("practice.txt","w")
+f.write(new_data)
+f.close()
+if "learning" in new_data:
+    print("yes,it is present")
+else:
+    print("no, it is not present")
