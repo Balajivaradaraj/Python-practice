@@ -1,0 +1,13 @@
+f = open("practice.txt", "r")
+
+line_no = 1
+
+for line in f:
+    if "learning" in line:
+        print(line_no)
+        break
+    line_no += 1
+else:
+    print(-1)
+
+f.close()
