@@ -1,0 +1,15 @@
+f = open("numbers.txt", "r")
+
+data = f.read()
+
+nums = data.split(",")
+
+count = 0
+
+for n in nums:
+    if int(n) % 2 == 0:
+        count += 1
+
+print("Even numbers =", count)
+
+f.close()
